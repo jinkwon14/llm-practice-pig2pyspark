@@ -1,0 +1,9 @@
+.ipynb_checkpoints/
+.Trash-0/
+data/*
+output/*
+scripts/*
+.env
+.DS_Store
+venv/
+*.log

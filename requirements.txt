@@ -1,0 +1,19 @@
+jupyterlab 
+subprocess.run
+pandas
+transformers 
+torch
+accelerate
+pyspark
+
+# langchain 
+langchain
+langchain-community
+
+# vector DB and embedding for RAG
+chromadb # vectorDB
+tiktoken # splitting text for vector DB 
+gpt4all # open source embedding
+
+# [05-07-2024] Add Autogen for iterative code debugging/update
+pyautogen[jupyter-executor]

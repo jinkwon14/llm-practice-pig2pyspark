@@ -1,0 +1,15 @@
+services: 
+  code-transcriber: 
+    build: .
+    container_name: pig_to_pyspark
+    ports: 
+      - 8888:8888
+    volumes: 
+      - ./:/workspace
+    deploy: 
+      resources: 
+        reservations: 
+          devices: 
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
